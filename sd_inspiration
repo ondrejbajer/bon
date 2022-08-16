@@ -2,10 +2,10 @@
     {
       "@context": "https://schema.org",
       "@type": "NewsArticle",
-      "headline": "Article headline",
-      "image": "<URL NÁHLEDOVÉHO OBRÁZKU>",
-      "datePublished": "<DATUM PUBLIKACE VE FORMÁTU: ISO 8601 (2022-08-16T09:16:20+00:00)>",
-      "author": {
+      "headline": "<H1 INSPIRACE>",
+      "image": "<URL NÁHLEDOVÉHO OBRÁZKU INSPIRACE>",
+      "datePublished": "<DATUM PUBLIKACE>",         //VE FORMÁTU: ISO 8601 (příklad: 2022-08-16T09:16:20+00:00)
+      "author": {       //POKUD JE AUTOR PŘIŘAZEN K INSPIRACI, JINAK SKIPUJEME
           "@type": "Person",
           "name": "<CELÉ JMÉNO AUTORA>",
           "url": "<URL NA PROFIL AUTORA NA BONAMI V DANÉ ZEMI>",
@@ -13,8 +13,8 @@
           "description": "<POPIS AUTORA V DANÉ ZEMI>",
           "image": "<URL - IMAGE AUOTRA>",
           "worksFor": "Bonami.cz, a.s.",
-          "sameAs": [
-             "<URL FACEBOOK, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK. NENÍ-LI VYPLNĚNA ŽÁDNÁ URL SKIPNEME CELÉ sameAS>",
+          "sameAs": [     //POKUD NENÍ NI JEDNA URL SOCEK VYPLNĚNA, TAK SKIPUJEME CELÉ SameAs
+             "<URL FACEBOOK, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>",
              "<URL INSTAGRAM, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>",
              "<URL PINTEREST, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>"
              ]
