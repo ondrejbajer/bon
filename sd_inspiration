@@ -4,8 +4,8 @@
       "@type": "NewsArticle",
       "headline": "Article headline",
       "image": "<URL NÁHLEDOVÉHO OBRÁZKU>",
-      "<DATUM PUBLIKACE VE FORMÁTU: ISO 8601 (2022-08-16T09:16:20+00:00)>",
-      "author": [{
+      "datePublished": "<DATUM PUBLIKACE VE FORMÁTU: ISO 8601 (2022-08-16T09:16:20+00:00)>",
+      "author": {
           "@type": "Person",
           "name": "<CELÉ JMÉNO AUTORA>",
           "url": "<URL NA PROFIL AUTORA NA BONAMI V DANÉ ZEMI>",
@@ -14,17 +14,18 @@
           "image": "<URL - IMAGE AUOTRA>",
           "worksFor": "Bonami.cz, a.s.",
           "sameAs": [
-             "<URL FACEBOOK, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK. NENÍ-LI VYPLNĚNA ŽÁDNÁ URL SKIPNEME CELÉ sameAS>"
-             "<URL INSTAGRAM, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>"
+             "<URL FACEBOOK, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK. NENÍ-LI VYPLNĚNA ŽÁDNÁ URL SKIPNEME CELÉ sameAS>",
+             "<URL INSTAGRAM, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>",
              "<URL PINTEREST, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>"
-          ]
-        }]
-    "publisher": {
-    "@type": "Organization",
-    "name": "Bonami.cz, a.s.",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "<ZDE BUDE URL NA LOGO BONAMI >"
-    }
+             ]
+          },
+     "publisher": {
+    	"@type": "Organization",
+    	"name": "Bonami.cz, a.s.",
+    	"logo": {
+      		"@type": "ImageObject",
+      		"url": "<ZDE BUDE URL NA LOGO BONAMI >"
+    		}
+     }
     }
     </script>
