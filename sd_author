@@ -1,0 +1,29 @@
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "<CELÉ JMÉNO AUTORA>",
+      "jobTitle": "<TITLE AUTORA V DANÉ ZEMI>",
+      "description": "<POPIS AUTORA V DANÉ ZEMI>",
+      "image": "<URL - IMAGE AUTORA>",
+      "url": "<URL NA PROFIL AUTORA NA BONAMI V DANÉ ZEMI>",
+	    "sameAs": [    //POKUD NENÍ NI JEDNA URL SOCEK VYPLNĚNA, TAK SKIPUJEME CELÉ SameAs
+             "<URL FACEBOOK, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>",
+             "<URL INSTAGRAM, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>",
+             "<URL PINTEREST, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>"],
+    "worksFor": {
+    "@type": "Organization",
+    "legalName": "Bonami.cz, a.s.",
+  	"address": {
+    	"@type": "PostalAddress",
+    	"addressCountry": "CZ",
+      	"addressLocality": "Praha 1 - Malá Strana",
+      	"postalCode": "11801",
+    	"streetAddress": "Újezd 450/40"
+  	},
+  "email": "sluzebnicek@bonami.cz",
+  "telephone": "+420232005040",
+  "vatID": "CZ24230111"
+  }
+  }
+    </script>
