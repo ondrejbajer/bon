@@ -12,13 +12,16 @@
           "jobTitle": "<TITLE AUTORA V DANÉ ZEMI>",
           "description": "<POPIS AUTORA V DANÉ ZEMI>",
           "image": "<URL - IMAGE AUOTRA>",
-          "worksFor": "Bonami.cz, a.s.",
           "sameAs": [     //POKUD NENÍ NI JEDNA URL SOCEK VYPLNĚNA, TAK SKIPUJEME CELÉ SameAs
              "<URL FACEBOOK, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>",
              "<URL INSTAGRAM, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>",
              "<URL PINTEREST, POKUD JE PRÁZDNÝ SKIPNEME ŘÁDEK>"
-             ]
-          },
+             ],
+           "worksFor": {
+                "@type": "Organization",
+                "legalName": "Bonami.cz, a.s."
+           }
+           },
      "publisher": {
     	"@type": "Organization",
     	"name": "Bonami.cz, a.s.",
@@ -27,5 +30,5 @@
       		"url": "<ZDE BUDE URL NA LOGO BONAMI >"
     		}
      }
-    }
+     }
     </script>
