@@ -1,0 +1,60 @@
+
+ <script type="application/ld+json">
+ {
+  "@context":"https://schema.org",
+  "@type":"Product",
+  "name":"Komoda Woodman Kensal Nordic, délka 100 cm",
+  "description":"Kensal Nordic je kolekce nábytku značky Woodman, kterou zdobí čistě bílá barva a detaily z masivního dubu a dýhy ve stejném dekoru. Na nic si nehraje. Je jednoduchá, dobře kombinovatelná, ryze účelná a minimalisticky se tvářící. Ideální volba pro ty, co hledají nábytek, který ani za dvacet let neztratí nic ze své nadčasovosti.\n\nO ZNAČCE\nZa návrhem nábytku Woodman stojí designér Leonhard Pfeifer, jehož tatínek vlastnil obchod s antik nábytkem. A asi právě to Leonharda ovlivnilo tak, že ač přemýšlí moderně a minimalisticky, stejně do svého nábytku Woodman vkládá lehký retro nádech. \n\nManuál k montáži produktu najde zde.",
+  "sku":228107,
+  "image":[
+     "https://1.bonami.cz/images/fit-crop-fill/c5/5c/c55c6c30e4992c7796c696e0166974a436ad2afc-1000x1000.jpeg",
+     "https://1.bonami.cz/images/fit-crop-fill/ed/db/eddb6f97c80fe085d0eabe2cf4e0ef7813825f63-1000x1000.jpeg",
+     "https://1.bonami.cz/images/fit-crop-fill/a1/25/a12593c7f3bf0bfd2d6ec3efad91c1492910c60b-1000x1000.jpeg",
+     "https://1.bonami.cz/images/fit-crop-fill/63/ed/63edf1dceb8fe7fd4cf62398ac94f25500b97570-1000x1000.jpeg",
+     "https://1.bonami.cz/images/fit-crop-fill/83/7a/837af7410d0b009230bba84a31e972d3771d7177-1000x1000.jpeg",
+     "https://1.bonami.cz/images/fit-crop-fill/23/cd/23cdc77bcd14b4f819c481b7eec7c1d14b3f54bd-1000x1000.jpeg",
+     "https://1.bonami.cz/images/fit-crop-fill/60/84/6084c0c5c21e86dff2906ef3bef9d937baa87139-1000x1000.jpeg"
+     ],
+   "offers":{
+      "@type":"Offer",
+      "availability":"http://schema.org/PreOrder",
+      "price":12490,
+      "priceCurrency":"CZK",
+      "url":"www.bonami.cz/p/komoda-kensal-nordic-100-cm"
+    },
+    "review":[{
+      "@type":"Review",
+      "author":{"@type":"Person",
+      "name":"Andrea P."
+    },
+    "datePublished":"2016-06-30",
+    "description":"Jednoduché čisté linie a pevná konstrukce..."
+    }],
+    "brand":{
+       "@type":"Brand",
+       "name":"Woodman"
+     },
+     "aggregateRating":{
+        "@type":"AggregateRating",
+        "ratingCount":7,
+        "ratingValue":"94%",
+        "reviewCount":1
+      }
+      "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "CZ, SK ", //here pokračovat
+          "returnPolicyCategory": "MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": "60",
+          "returnMethod": "ReturnByMail",
+          "returnFees": "FreeReturn"
+        }
+}
+</script>
+    
+    
+    
+    
+    
+    
+    
+    
