@@ -45,7 +45,7 @@
           "applicableCountry": ["CZ","SK","PL","RO","HU","HR","LV","LT","SI"], //a další nové země, co budou live
           "returnPolicyCategory": "MerchantReturnFiniteReturnWindow",
           "merchantReturnDays": "365",
-          "returnMethod": ["ReturnByMail","ReturnAtKiosk","ReturnInStore"], //dle tabulky v jire
+          "returnMethod": ["ReturnByMail","ReturnAtKiosk","ReturnInStore"], //dle tabulky v Jire
           "returnFees": "FreeReturn"
         }
 }
