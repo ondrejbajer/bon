@@ -39,20 +39,17 @@
         "ratingCount":7,
         "ratingValue":"94%",
         "reviewCount":1
-      }
+      },
       "hasMerchantReturnPolicy": {
           "@type": "MerchantReturnPolicy",
-          "applicableCountry": "CZ, SK ", //here pokračovat
+          "applicableCountry": ["CZ","SK","PL","RO","HU","HR","LV","LT","SI"], //a další nové země, co budou live
           "returnPolicyCategory": "MerchantReturnFiniteReturnWindow",
-          "merchantReturnDays": "60",
-          "returnMethod": "ReturnByMail",
+          "merchantReturnDays": "365",
+          "returnMethod": ["ReturnByMail","ReturnAtKiosk","ReturnInStore"], //dle tabulky v jire
           "returnFees": "FreeReturn"
         }
 }
 </script>
-    
-    
-    
     
     
     
