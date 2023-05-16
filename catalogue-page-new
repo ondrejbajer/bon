@@ -1,0 +1,56 @@
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"CollectionPage",
+"headline":"<h1>",
+"url":"<url>",
+"@id":"<url>#collectionpage",
+"relatedLink":[
+      #Pokud jde o kategorii bez filtru#
+      "<url podkategorie 1>",
+      "<url podkategorie 2>",
+      "<url podkategorie 3>",
+      ...
+      "<1 url na kategorii s doporučenými filtry>",
+      "<2 url na kategorii s doporučenými filtry>",
+      ...
+      #Pokud jde o kategorii s filtrem#
+      "<url zpět na kategorii bez aktivního filtru>",
+      ],
+"mainEntity":{"@id":"<url>#itemlist"}
+}
+</script>
+            
+<script type="application/ld+json">
+{
+"@type":"ItemList",
+"@id":"<url>#itemlist",
+"isPartOf":{"@id":"<url>#collectionpage"},
+"itemListElement":[
+{
+  "@type":"Product",
+  "url":"<url produktu 1>",
+  "@id":"<url produktu 1>#product",
+  "name":"<name produktu 1>",
+  "offers":{
+    "@type":"Offer",
+    "price":"<cena produktu 1>",
+    "priceCurrency":"<currency v dané zemi ve formátu: ISO 4127 https://en.wikipedia.org/wiki/ISO_4217 [CZK]>",
+    "availability":"Zde dosadíme hodnotu avalibility jako je v str datech na detailu produktu, vždy jde o URL ve formátu jako je tento: https://schema.org/InStock" 
+  }
+},
+{
+  "@type":"Product",
+  "url":"<url produktu 2>",
+  "@id":"<url produktu 2>#product",
+  "name":"<name produktu 2>",
+  "offers":{
+    "@type":"Offer",
+    "price":"<cena produktu 2>",
+    "priceCurrency":"<currency v dané zemi ve formátu: ISO 4127 https://en.wikipedia.org/wiki/ISO_4217 [CZK]>",
+    "availability":"Zde dosadíme hodnotu avalibility jako je v str datech na detailu produktu, vždy jde o URL ve formátu jako je tento: https://schema.org/InStock" 
+  }
+}
+]
+}
+</script>
