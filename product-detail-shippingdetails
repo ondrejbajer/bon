@@ -21,14 +21,14 @@
       "priceCurrency":"CZK",
       "url":"www.bonami.cz/p/komoda-kensal-nordic-100-cm",
       
-      
+      //NEW_START
       "shippingDetails": [
           {
             "@type": "OfferShippingDetails",
             "shippingRate": {
               "@type": "MonetaryAmount",
               "value": 3.49, //Zde bude cena za dopravu
-              "currency": "CZK" //Místní currency ve formátu https://en.wikipedia.org/wiki/ISO_4217
+              "currency": "CZK" //Místní currency ve formátu ISO 4217: https://en.wikipedia.org/wiki/ISO_4217
             },
             "shippingDestination": {
               "@type": "DefinedRegion",
@@ -49,14 +49,9 @@
                 "unitCode": "DAY"
               }
             }
-          },
-          { //zde stejným způsobem je vypsán další způsob doručení, pokud jich je víc...
-            "@type": "OfferShippingDetails",
-            ............
-            }
           }
         ]
-      
+    //NEW_END
       
       
     },
