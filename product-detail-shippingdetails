@@ -27,7 +27,7 @@
             "@type": "OfferShippingDetails",
             "shippingRate": {
               "@type": "MonetaryAmount",
-              "value": 3.49, //Zde bude cena za dopravu
+              "value": 3.49, //Zde bude cena za dopravu (nejlevnější mimo zdarma, osobní odběr aapicup místa. Prostě to co dovezou)
               "currency": "CZK" //Místní currency ve formátu ISO 4217: https://en.wikipedia.org/wiki/ISO_4217
             },
             "shippingDestination": {
