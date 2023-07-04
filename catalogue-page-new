@@ -14,7 +14,7 @@
       "<1 url na kategorii s doporučenými filtry>",
       "<2 url na kategorii s doporučenými filtry>",
       ...
-      #Pokud jde o kategorii s filtrem#
+      #Pokud jde o kategorii s filtrem (nezobrazuji to bez filtru výše)#
       "<url zpět na kategorii bez aktivního filtru>",
       ],
 "mainEntity":{"@id":"<url>#itemlist"}
